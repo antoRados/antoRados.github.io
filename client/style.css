@@ -1,0 +1,162 @@
+/*************
+  General CSS
+*************/
+.hspacer {
+    width: 100%;
+    height: 5px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #86CC3F;
+    z-index: 5000
+}
+.about {
+    height: 100%;
+    border-left: 1px solid #86CC3F;
+    z-index: 5000;
+    padding-left: 50px
+}
+#content {
+    width: 720px;
+    padding-top: 170px;
+    margin-left: 240px;
+    z-index: 1;
+}
+p {
+	font-family: Verdana, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #848484;
+	font-size: 10pt;
+}
+h1 {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 22pt;
+}
+h2 {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 18pt;
+}
+h3 {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 16pt;
+}
+h4 {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 14pt;
+}
+h5 {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 14pt;
+}
+h6 {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+/************
+  Header CSS
+************/
+#header-wrapper {
+    position: fixed;
+    background-color: #FFF;
+    width: 100%;
+    height: 120px;
+    top: 0px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #86CC3F;
+    z-index: 5000;
+}
+#header {
+    width: 960px;
+}
+#logo {
+    float: left;
+    width: 100px;
+    padding: 20px 0 10px 40px;
+}
+#header-text {
+    width: 700px;
+    padding-top: 40px;
+    margin-left: 240px;
+    display: block;
+    height: 20px;
+}
+#header-text h6 {
+    font-size: 7pt;
+    color: #d8d8d8;
+}
+#header-text a {
+    font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+}
+
+/******************
+  Social-media CSS
+******************/
+#social-media {
+    width: 96px;
+    height: 976px;
+    position: fixed;
+    bottom: 40px;
+    left: 30px;
+}
+#social-media li {
+    list-style-type: none;
+    float: left;
+    padding-left: 6px;
+    padding-top: 10px;   
+}
+.linkedin a{
+    background-image: url(/img/linkedin.png);
+    background-position: 0 0 px;
+    display: block;
+    height: 72px;
+    width: 72px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+}
+.twitter a{
+    background-image: url(/img/twitter.png);
+    background-position: 0 0 px;
+    display: block;
+    height: 72px;
+    width: 72px;
+    padding-left: 24px;
+    background-repeat: no-repeat;
+}
+.github a{
+    background-image: url(/img/github.png);
+    background-position: 0 0 px;
+    display: block;
+    height: 72px;
+    width: 72px;
+    padding-left: 24px;
+    background-repeat: no-repeat;
+}
+.codewars a{
+    background-image: url(/img/codewars.png);
+    background-position: 0 0 px;
+    display: block;
+    height: 72px;
+    width: 72px;
+    padding-left: 24px;
+    background-repeat: no-repeat;
+}
