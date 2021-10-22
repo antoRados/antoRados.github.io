@@ -126,7 +126,7 @@ h6 {
 }
 .linkedin a{
     background-image: url(/img/linkedin.png);
-    background-position: 0 0 px;
+    background-position: 0 0px;
     display: block;
     height: 72px;
     width: 72px;
@@ -135,7 +135,7 @@ h6 {
 }
 .twitter a{
     background-image: url(/img/twitter.png);
-    background-position: 0 0 px;
+    background-position: 0 0px;
     display: block;
     height: 72px;
     width: 72px;
@@ -144,7 +144,7 @@ h6 {
 }
 .github a{
     background-image: url(/img/github.png);
-    background-position: 0 0 px;
+    background-position: 0 0px;
     display: block;
     height: 72px;
     width: 72px;
@@ -153,10 +153,52 @@ h6 {
 }
 .codewars a{
     background-image: url(/img/codewars.png);
-    background-position: 0 0 px;
+    background-position: 0 0px;
     display: block;
     height: 72px;
     width: 72px;
     padding-left: 24px;
     background-repeat: no-repeat;
+}
+
+/************
+  Skills CSS
+************/
+.images {
+    display: inline;
+    margin: 10px;
+    margin-left: 40px;
+    padding: 10px;
+    z-index: 1;
+    padding-left: 40px
+}
+#skills{
+    display: block;
+    border-left: 1px solid #86CC3F;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 40px;
+    height: auto;
+    max-width: auto;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-left: 18.2%;
+    z-index: 1;
+}
+#skills2{
+    display: block;
+    border-left: 1px solid #86CC3F;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 40px;
+    height: auto;
+    max-width: auto;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-left: 18.2%;
+    z-index: 1;
 }
