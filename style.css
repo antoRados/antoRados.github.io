@@ -18,6 +18,7 @@
 }
 #content {
     width: 720px;
+    max-width: auto;
     padding-top: 170px;
     margin-left: 240px;
     z-index: 1;
@@ -78,6 +79,7 @@ h6 {
     position: fixed;
     background-color: #FFF;
     width: 100%;
+    max-width: auto;
     height: 120px;
     top: 0px;
     border-bottom: 1px;
@@ -87,13 +89,16 @@ h6 {
 }
 #header {
     width: 960px;
+    max-width: auto;
 }
 #logo {
+    max-width: auto;
     float: left;
     width: 100px;
     padding: 20px 0 10px 40px;
 }
 #header-text {
+    max-width: auto;
     width: 700px;
     padding-top: 40px;
     margin-left: 240px;
@@ -101,6 +106,7 @@ h6 {
     height: 20px;
 }
 #header-text h6 {
+    max-width: auto;
     font-size: 7pt;
     color: #d8d8d8;
 }
@@ -120,6 +126,7 @@ h6 {
 }
 #social-media li {
     list-style-type: none;
+    position: relative;
     float: left;
     padding-left: 6px;
     padding-top: 10px;   
@@ -181,8 +188,6 @@ h6 {
     top: 40px;
     height: auto;
     max-width: auto;
-    overflow-y: hidden;
-    overflow-x: auto;
     white-space: nowrap;
     margin-left: 18.2%;
     z-index: 1;
@@ -196,8 +201,6 @@ h6 {
     top: 40px;
     height: auto;
     max-width: auto;
-    overflow-y: hidden;
-    overflow-x: auto;
     white-space: nowrap;
     margin-left: 18.2%;
     z-index: 1;
